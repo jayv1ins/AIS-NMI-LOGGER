@@ -1,0 +1,9 @@
+CREATE TABLE users(
+    user_id int(11) AUTO_INCREMET PRIMARY KEY not null,
+    userName varchar(256) not null,
+    userEmail varchar(256) not null,
+    userUID varchar(256) not null,
+    userPwd varchar(256) not null
+);
+
+INSERT INTO users (UserName, usersEmail, usersUID, usersPwd) VALUES ('alvin na', 'nakpil@gmail.com', 'jayvin', '123');
